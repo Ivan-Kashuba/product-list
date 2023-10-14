@@ -1,5 +1,5 @@
 import { Modal, Spinner } from "flowbite-react";
-import { useProductItem } from "@/entities/Product/api/useProductItem/useProductItem.ts";
+import { useProductItem } from "../../api/useProductItem/useProductItem.ts";
 import StarIcon from "@/shared/assets/star-icon.svg";
 
 interface ProductDetailedModalI {

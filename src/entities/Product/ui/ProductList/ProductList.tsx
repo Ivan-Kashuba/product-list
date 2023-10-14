@@ -12,8 +12,7 @@ export const ProductList = ({ pageSize }: ProductListPropsI) => {
     if (isFetching || isLoading) {
       return <ProductListLoader />;
     }
-
-    console.log("data:", data);
+    
 
     return (
       <>
