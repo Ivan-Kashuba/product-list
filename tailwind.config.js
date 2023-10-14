@@ -8,5 +8,5 @@ module.exports = {
       small: ["11px", "15,4"],
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };

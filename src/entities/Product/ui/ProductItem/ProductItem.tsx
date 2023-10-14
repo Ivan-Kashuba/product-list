@@ -23,7 +23,7 @@ export const ProductItem = ({ product }: ProductItemI) => {
       <Card className="w-[400px]">
         <h2 className="text-h2 font-bold">{title}</h2>
         <img src={image} className="w-[200px] h-[200px] m-auto" alt="Product Image" />
-        <p className="text-h3 display-box box-orient-vertical line-clamp-3 overflow-ellipsis">{description}</p>
+        <p className="text-h3 display-box box-orient-vertical line-clamp-2 overflow-ellipsis">{description}</p>
         <p>Category: <span className="font-bold">{category}</span></p>
         <div className="flex justify-between items-center font-bold text-h1">
           <h1>{price} $</h1>

@@ -6,5 +6,7 @@ import { QueryProvider } from "@/app/providers/QueryClientProvider";
 
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <QueryProvider><App /></QueryProvider>,
+  <QueryProvider>
+    <App />
+  </QueryProvider>,
 );
